@@ -1,0 +1,231 @@
+/*** RESPONSIVE DESIGN ***/
+
+
+/* m1800 */
+
+@media (max-width: 1800px) {}
+
+
+/* m1700 */
+
+@media (max-width: 1700px) {}
+
+
+/* m1500 */
+
+@media (max-width: 1500px) {}
+
+
+/* m1340 */
+
+@media (max-width: 1340px) {}
+
+
+/* m1200 */
+
+@media (max-width: 1200px) {}
+
+
+/* m870 */
+
+@media (max-width: 870px) {}
+
+
+/* m650 */
+
+@media (max-width: 650px) {
+	.scroll-down {
+		display: none;
+	}
+	#home #header-background .bg-red-sun {
+		display: none;
+	}
+	#home #header-background .bg-yellow-moon {
+		display: none;
+	}
+	#home #header-background .bg-green-planet {
+		display: none;
+	}
+	#home #header-background .bg-blue-planet {
+		display: none;
+	}
+	#home #header-background .bg-rocket {
+		display: none;
+	}
+	#contact .rocket,
+	.white-smoke,
+	.pink-smoke {
+		display: none;
+	}
+	.scroll-up {
+		display: none !important;
+	}
+}
+
+
+/* m560 */
+
+@media (max-width: 560px) {
+	.scroll-down {
+		display: none;
+	}
+	#home #header-background .bg-red-sun {
+		display: none;
+	}
+	#home #header-background .bg-yellow-moon {
+		display: none;
+	}
+	#home #header-background .bg-green-planet {
+		display: none;
+	}
+	#home #header-background .bg-blue-planet {
+		display: none;
+	}
+	#home #header-background .bg-rocket {
+		display: none;
+	}
+	#contact .rocket,
+	.white-smoke,
+	.pink-smoke {
+		display: none;
+	}
+	.scroll-up {
+		display: none !important;
+	}
+}
+
+
+/* m500 */
+
+@media (max-width: 500px) {
+	.scroll-down {
+		display: none;
+	}
+	#home #header-background .bg-red-sun {
+		display: none;
+	}
+	#home #header-background .bg-yellow-moon {
+		display: none;
+	}
+	#home #header-background .bg-green-planet {
+		display: none;
+	}
+	#home #header-background .bg-blue-planet {
+		display: none;
+	}
+	#home #header-background .bg-rocket {
+		display: none;
+	}
+	#contact .rocket,
+	.white-smoke,
+	.pink-smoke {
+		display: none;
+	}
+	.scroll-up {
+		display: none !important;
+	}
+}
+
+
+/* m460 */
+
+@media (max-width: 460px) {
+	.scroll-down {
+		display: none;
+	}
+	#home #header-background .bg-red-sun {
+		display: none;
+	}
+	#home #header-background .bg-yellow-moon {
+		display: none;
+	}
+	#home #header-background .bg-green-planet {
+		display: none;
+	}
+	#home #header-background .bg-blue-planet {
+		display: none;
+	}
+	#home #header-background .bg-rocket {
+		display: none;
+	}
+	.nombre {
+		margin: 63px auto;
+		font-size: 3.2em;
+	}
+	.descripcion {
+		font-size: 2em !important;
+	}
+	.type-wrap {
+		margin-top: -3em;
+	}
+	.contenedor-hamburger,
+	.icon {
+		margin: 1.5em;
+		top: 1em;
+	}
+	.astronauta {
+		position: absolute;
+		bottom: 9em;
+		left: 1.2em;
+		max-width: 21em;
+		z-index: 99;
+	}
+	#home #header-background .bg-suelo {
+		height: 85%;
+	}
+	.scroll-down {
+		left: 40%;
+		bottom: 5em;
+		margin-left: 0;
+	}
+	.seccion-titulo {
+		white-space: nowrap;
+	}
+	.carousel-inner span {
+		font-size: 6em !important;
+	}
+	.subtitulo-about {
+		margin-top: 3em;
+		font-size: 1em;
+	}
+	.seccion-titulo {
+		white-space: nowrap;
+		font-size: 2.5em;
+	}
+	#contact .rocket,
+	.white-smoke,
+	.pink-smoke {
+		display: none;
+	}
+	.scroll-up {
+		display: none !important;
+	}
+}
+
+
+/* m360 */
+
+@media (max-width: 360px) {}
+
+
+/* m330 */
+
+
+}
+
+/*** VERTICAL RESPONSIVE DESIGN ***/
+
+/* v2/1 */
+@media (min-aspect-ratio: 2/1) {}
+
+/* v900 */
+@media (max-height: 900px) {}
+
+/* v750 */
+@media (max-height: 750px) and (orientation: landscape) {}
+
+/* v480 */
+@media (max-height: 480px) and (orientation: landscape) {}
+
+/* v480 */
+@media (max-height: 480px) {}
