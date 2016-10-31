@@ -263,7 +263,15 @@ h6 {
  * Home
 /* ---------------------------------------------- */
 .ingles {
+	margin-top: 1em;
+	margin-right: 1em;
     font-size: 22px;
+
+}
+.espa {
+	margin-top: 1em;
+    font-size: 22px;
+	margin-right: 5em;
 }
 .cont {
 	position: relative;
