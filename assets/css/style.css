@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 body {
 	overflow-x: hidden;
 	min-height: 100%;
@@ -262,17 +261,23 @@ h6 {
 /* ---------------------------------------------- /*
  * Home
 /* ---------------------------------------------- */
+
 .ingles {
 	margin-top: 1em;
 	margin-right: 1em;
-    font-size: 22px;
-
+	font-size: 22px;
 }
+
 .espa {
 	margin-top: 1em;
-    font-size: 22px;
+	font-size: 22px;
 	margin-right: 5em;
 }
+
+.idiomas {
+	z-index: 999 !important;
+}
+
 .cont {
 	position: relative;
 	width: 100%;
@@ -577,6 +582,7 @@ h6 {
 .lyft {
 	max-width: 30%;
 }
+
 .tinder {
 	max-width: 30%;
 }
