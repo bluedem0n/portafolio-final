@@ -34,33 +34,56 @@
 /* m650 */
 
 @media (max-width: 650px) {
-	
+	#contact .rocket,
+	.white-smoke,
+	.pink-smoke {
+		display: none;
+	}
 }
 
 
 /* m560 */
 
 @media (max-width: 560px) {
-	
+	#contact .rocket,
+	.white-smoke,
+	.pink-smoke {
+		display: none;
+	}
 }
 
 
 /* m500 */
 
 @media (max-width: 500px) {
-
+	#contact .rocket,
+	.white-smoke,
+	.pink-smoke {
+		display: none;
+	}
 }
 
 
 /* m460 */
 
 @media (max-width: 460px) {
-
+	#contact .rocket,
+	.white-smoke,
+	.pink-smoke {
+		display: none;
+	}
 }
+
 
 /* m360 */
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+	#contact .rocket,
+	.white-smoke,
+	.pink-smoke {
+		display: none;
+	}
+}
 
 
 /* m330 */
@@ -80,7 +103,13 @@
 @media (max-height: 750px) and (orientation: landscape) {}
 
 /* v480 */
-@media (max-height: 480px) and (orientation: landscape) {}
+@media (max-height: 480px) and (orientation: landscape) {
+	#contact .rocket,
+	.white-smoke,
+	.pink-smoke {
+		display: none;
+	}
+}
 
 /* v480 */
 @media (max-height: 480px) {}
