@@ -12,7 +12,7 @@
 	/* ---------------------------------------------- */
 
 	$("#typed").typed({
-		strings: ["Front End Developer", "Back End Developer", "Front End Developer"],
+		strings: ["Front End Developer", "Front End Developer","Back End Developer", "Web Developer"],
 		typeSpeed: 30,
 		backDelay: 500,
 		loop: false,

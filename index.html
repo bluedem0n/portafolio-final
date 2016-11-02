@@ -19,6 +19,7 @@
 	<!-- Custom styles CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
 	<link href="assets/css/queries.css" rel="stylesheet" media="screen">
+
 </head>
 
 <body>
@@ -28,98 +29,80 @@
 	<div id="preloader">
 		<div id="particles-js"></div>
 		<div id="status">
-			<div class="cv text-center">
+			<!--<div class="cv text-center">
 				<p class="text-white">¿Quieres descargar mi CV mientras espera?</p>
 				<a href="assets/docs/CV-STHEFANY.pdf">
 					<button type="button" class="btn btn-success btn-cv">Descarga CV</button>
 				</a>
-
-			</div>
+			</div>-->
 		</div>
 	</div>
-
 	<!-- Home start -->
-	<section class="cont">
-		<div id="home" class="seccion-image screen-height">
-			<div id="header-background">
-				<div class="idiomas">
-					<a href="index.html" class="espa pull-right"> Español </a>
-					<a href="ingles.html" class="ingles pull-right">English / </a>
-				</div>
-				<div class="jumbotron">
-					<div class="container">
-						<div class="nombre">Sthefany Floriano</div>
-						<div class="type-wrap">
-							<span class="descripcion" id="typed"></span>
-						</div>
-					</div>
-				</div>
-				<div class="bg-suelo"></div>
-				<div class="bg-rocket"></div>
-				<div class="bg-red-sun"></div>
-				<div class="bg-particles"></div>
-				<div class="bg-yellow-moon"></div>
-				<div class="bg-green-planet"></div>
-				<div class="bg-blue-planet"></div>
-				<div class="bg-particles"></div>
-				<img class="astronauta" src="assets/img/fondos/yo.png" alt="">
 
+	<section id="home" class="seccion-image screen-height">
+		<div class="home-overlay"></div>
+		<div class="intro">
+			<div class="start">Hola, me llamo Sthefany Floriano y soy </div>
+			<div class="type-wrap">
+				<span class="descripcion" id="typed"></span>
 			</div>
-			<!-- Menu Full Screen start -->
-			<div class="mobilenav">
-				<li><a href="#about">Acerca de Mi</a></li>
-				<li><a href="#skills">Mis Habilidades</a></li>
-				<li><a href="#portafolio">Mis Trabajos</a></li>
-				<li><a href="#experimentos">Mis Experimentos</a></li>
-				<li><a href="#contact">Contáctame</a></li>
 
-				<div class="redes">
-					<a href="https://www.facebook.com/SthefanyFloriano/" target="_blank">
-						<img src="assets/img/iconos/fb-logo.svg" alt="Facebook logo" />
-					</a>
-					<a href="https://plus.google.com/u/0/+SthefanyFloriano" target="_blank">
-						<img src="assets/img/iconos/gplus-logo.svg" alt="Google+ logo" />
-					</a>
-					<a href="https://twitter.com/Stheflog" target="_blank">
-						<img src="assets/img/iconos/twitter-logo.svg" alt="Twitter logo" />
-					</a>
-					<a href="https://www.linkedin.com/in/SthefanyFloriano" target="_blank">
-						<img src="assets/img/iconos/linkedin-logo.svg" alt="LinkedIn logo" />
-					</a>
-					<a href="https://github.com/sthecrash" target="_blank">
-						<img src="assets/img/iconos/github_128.png" alt="Github logo" />
-					</a>
-				</div>
+			<div class="start">Creando aplicaciones Web modernas y responsive</div>
+		</div>
 
-			</div>
-			<div class="contenedor-hamburger">
-				<a href="javascript:void(0)" class="icon">
-					<div class="hamburger">
-						<div class="menui top-menu"></div>
-						<div class="menui mid-menu"></div>
-						<div class="menui bottom-menu"></div>
-					</div>
+		<!-- Menu Full Screen start -->
+		<div class="mobilenav">
+			<li><a href="#about">Acerca de Mi</a></li>
+			<li><a href="#skills">Mis Habilidades</a></li>
+			<li><a href="#portafolio">Mis Trabajos</a></li>
+			<li><a href="#experimentos">Mis Experimentos</a></li>
+			<li><a href="#contact">Contáctame</a></li>
+
+			<div class="redes">
+				<a href="https://www.facebook.com/SthefanyFloriano/" target="_blank">
+					<img src="assets/img/iconos/fb-logo.svg" alt="Facebook logo" />
+				</a>
+				<a href="https://plus.google.com/u/0/+SthefanyFloriano" target="_blank">
+					<img src="assets/img/iconos/gplus-logo.svg" alt="Google+ logo" />
+				</a>
+				<a href="https://twitter.com/Stheflog" target="_blank">
+					<img src="assets/img/iconos/twitter-logo.svg" alt="Twitter logo" />
+				</a>
+				<a href="https://www.linkedin.com/in/SthefanyFloriano" target="_blank">
+					<img src="assets/img/iconos/linkedin-logo.svg" alt="LinkedIn logo" />
+				</a>
+				<a href="https://github.com/sthecrash" target="_blank">
+					<span class="devicon-github-plain colored"></span>
 				</a>
 			</div>
-			<!-- Menu Full Screen end -->
-			<a href="#about">
-				<div class="scroll-down">
-					<span>
-                <i class="fa fa-angle-down fa-2x"></i>
-            </span>
+
+		</div>
+		<div class="contenedor-hamburger">
+			<a href="javascript:void(0)" class="icon">
+				<div class="hamburger">
+					<div class="menui top-menu"></div>
+					<div class="menui mid-menu"></div>
+					<div class="menui bottom-menu"></div>
 				</div>
 			</a>
 		</div>
+		<!-- Menu Full Screen end -->
+		<a href="#about">
+			<div class="scroll-down">
+				<span>
+                <i class="fa fa-angle-down fa-2x"></i>
+            </span>
+			</div>
+		</a>
 	</section>
 	<!-- Home end -->
-
 	<!-- About me start -->
-	<section class="seccion seccion-white" id="about">
+	<section id="about" class="seccion seccion-gray">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
 					<div class="seccion-header">
-						<h2 class="seccion-titulo tipografia-titulo text-gray">Acerca de mí</h2>
+						<h2 class="seccion-titulo tipografia-titulo">Acerca de mí</h2>
 					</div>
 				</div>
 			</div>
@@ -144,11 +127,11 @@
 
 	<!-- Skills start -->
 
-	<section class="seccion-blue seccion-skills" id="skills">
-		<div class="container text-white">
+	<section class="seccion-white seccion-skills" id="skills">
+		<div class="container text-blue">
 			<div class="row skills">
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-3 text-white">
+					<div class="col-sm-6 col-sm-offset-3 text-blue">
 						<div class="seccion-header wow fadeInUp">
 							<h2 class="seccion-titulo tipografia-titulo">Mis Habilidades</h2>
 							<div class="seccion-line"></div>
@@ -158,103 +141,103 @@
 									<div class="item active">
 										<span class="devicon-html5-plain-wordmark colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> HTML Increible </h3>
+											<h3 class="text-blue subtitulo-about"> HTML INCREIBLE </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-css3-plain-wordmark colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> Mi primer amor JS </h3>
+											<h3 class="text-blue subtitulo-about"> CSS SUCULENTO </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-javascript-plain colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> CSS suculento </h3>
+											<h3 class="text-blue subtitulo-about"> MI PRIMER AMOR </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-bootstrap-plain-wordmark colored colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> BOOTSTRAP el mejor </h3>
+											<h3 class="text-blue subtitulo-about"> BOOTSTRAP el mejor </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-jquery-plain colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> JQUERY lover </h3>
+											<h3 class="text-blue subtitulo-about"> JQUERY lover </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-java-plain colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> JAVA FAN </h3>
+											<h3 class="text-blue subtitulo-about"> JAVA FAN </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-csharp-plain colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> C# lover </h3>
+											<h3 class="text-blue subtitulo-about"> C# lover </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-dot-net-plain colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> .NET increible </h3>
+											<h3 class="text-blue subtitulo-about"> .NET increible </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-android-plain colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> ANDROID FAN </h3>
+											<h3 class="text-blue subtitulo-about"> ANDROID FAN </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-linux-plain colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> LINUX  </h3>
+											<h3 class="text-blue subtitulo-about"> LINUX  </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-ubuntu-plain-wordmark colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> UBUNTU  </h3>
+											<h3 class="text-blue subtitulo-about"> UBUNTU  </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-git-plain colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> Reyna del GIT</h3>
+											<h3 class="text-blue subtitulo-about"> Reyna del GIT</h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-github-plain colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about">Obsecion al Gitub</h3>
+											<h3 class="text-blue subtitulo-about">Obsesión al Github</h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-oracle-original colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> SQL </h3>
+											<h3 class="text-blue subtitulo-about"> SQL </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-mysql-plain colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> MYSQL </h3>
+											<h3 class="text-blue subtitulo-about"> MYSQL </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-oracle-original colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> ORACLE </h3>
+											<h3 class="text-blue subtitulo-about"> ORACLE </h3>
 										</div>
 									</div>
 									<div class="item center-block">
 										<span class="devicon-trello-plain-wordmark colored"></span>
 										<div class="caption">
-											<h3 class="text-white subtitulo-about"> TRELLO LOVER </h3>
+											<h3 class="text-blue subtitulo-about"> TRELLO LOVER </h3>
 										</div>
 									</div>
 								</div>
@@ -308,14 +291,14 @@
 
 	<!-- Portafolio start -->
 
-	<section id="portafolio" class="seccion">
+	<section id="portafolio" class="seccion fondo-portafolio">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
 					<div class="seccion-header wow fadeInUp">
-						<h2 class="seccion-titulo text-gray tipografia-titulo">Mis Trabajos</h2>
+						<h2 class="seccion-titulo tipografia-titulo text-white">Mis Trabajos</h2>
 						<div class="seccion-line"></div>
-						<div class="seccion-subtitulo text-gray">
+						<div class="seccion-subtitulo text-white">
 							Algunos de mis proyectos como Desarrolladora Web.
 						</div>
 					</div>
@@ -412,7 +395,7 @@
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
 					<div class="seccion-header wow fadeInUp">
-						<h2 class="seccion-titulo tipografia-titulo">Mis Experimentos</h2>
+						<h2 class="seccion-titulo tipografia-titulo text-white">Mis Experimentos</h2>
 						<div class="seccion-line"></div>
 						<div class="seccion-subtitulo text-white">
 							Innovar , experimentar , crear.
